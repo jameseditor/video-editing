@@ -1,0 +1,115 @@
+@echo off
+setlocal
+
+echo Which Client project are you working on
+echo 1. Republic Studs
+echo 2. Generic Stud
+echo 3. TommyCBricks
+echo 4. Personal Films
+echo 5. Editor Assets
+echo 6. Premeire Pro
+
+
+set p project_choice=Choose 1 - 6 
+
+if %project_choice%==1 (
+    echo Opening Republic Studs project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksRepublic StudsVideos06_Sonic01_Seqs.prproj
+    start  Drepublic studs2024
+) 
+
+if %project_choice%==2 (
+    echo Opening Generic Stud project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksTommyCBricks VideosVideosSuperhero Tech01_Seqs.prproj
+    start  DClientsTommyCBricksYoutube2024
+) 
+
+if %project_choice%==3 (
+    echo Opening TommyCBricks project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksTommyCBricks VideosVideosSuperhero Tech01_Seqs.prproj
+    start  DClientsTommyCBricksYoutube2024
+) 
+
+if %project_choice%==4 (
+    echo Opening Personal Films project...
+    start  Fvideoseditor assets
+    start  DfilmsPersonal filmsCurrent VideosTWD FestSeqs - Donna Blood.prproj
+    start  Dfilms
+)
+
+if %project_choice%==5 (
+    echo Opening Editor Assets project...
+    start  Fvideoseditor assets
+)
+
+if %project_choice%==6 (
+    echo Opening Premeire Pro project...
+    start  CProgram FilesAdobeAdobe Premiere Pro 2024Adobe Premiere Pro.exe
+)
+
+ If the input is not 1-4
+if not %project_choice%==1 if not %project_choice%==2 if not %project_choice%==3 if not %project_choice%==4 (
+    echo No project selected or invalid choice.
+)
+
+endlocal@echo off
+setlocal
+
+echo Which Client project are you working on
+echo 1. Republic Studs
+echo 2. Generic Stud
+echo 3. TommyCBricks
+echo 4. Personal Films
+echo 5. Editor Assets
+echo 6. Premeire Pro
+
+
+set p project_choice=Choose 1 - 6 
+
+if %project_choice%==1 (
+    echo Opening Republic Studs project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksRepublic StudsVideos06_Sonic01_Seqs.prproj
+    start  Drepublic studs2024
+) 
+
+if %project_choice%==2 (
+    echo Opening Generic Stud project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksTommyCBricks VideosVideosSuperhero Tech01_Seqs.prproj
+    start  DClientsTommyCBricksYoutube2024
+) 
+
+if %project_choice%==3 (
+    echo Opening TommyCBricks project...
+    start  Fvideoseditor assets
+    start  DClientsTommyCBricksTommyCBricks VideosVideosSuperhero Tech01_Seqs.prproj
+    start  DClientsTommyCBricksYoutube2024
+) 
+
+if %project_choice%==4 (
+    echo Opening Personal Films project...
+    start  Fvideoseditor assets
+    start  DfilmsPersonal filmsCurrent VideosTWD FestSeqs - Donna Blood.prproj
+    start  Dfilms
+)
+
+if %project_choice%==5 (
+    echo Opening Editor Assets project...
+    start  Fvideoseditor assets
+)
+
+if %project_choice%==6 (
+    echo Opening Premeire Pro project...
+    start  CProgram FilesAdobeAdobe Premiere Pro 2024Adobe Premiere Pro.exe
+)
+
+ If the input is not 1-4
+if not %project_choice%==1 if not %project_choice%==2 if not %project_choice%==3 if not %project_choice%==4 (
+    echo No project selected or invalid choice.
+)
+
+endlocal
