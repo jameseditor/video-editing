@@ -13,7 +13,21 @@ echo 7. OBS
 echo 8. Shutter Encoder
 echo 9. TourBox
 
-set /p program_choice="Choose 1 - 9: "
+set /p program_choice="Choose 1 - 9 (or type 'cancel', 'exit', or 'stop' to quit): "
+
+:: Check if the user typed any cancellation commands
+if /i "%program_choice%"=="cancel" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%program_choice%"=="exit" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%program_choice%"=="stop" (
+    echo Process cancelled.
+    exit /b
+)
 
 if "%program_choice%"=="1" (
     echo Opening Mozilla Firefox...
