@@ -1,15 +1,10 @@
 @echo off
 
-:: Check for /help command only if a parameter is provided
-if "%1"=="/help" (
-    echo This script helps create a structured folder layout for video projects.
-    echo Enter a project name without special characters (e.g., ! @ # $ % ^ & * ( )).
-    echo Type "cancel", "exit", or "stop" at any prompt to cancel at any time.
-    echo.
-    pause
-    exit /b
-)
-
+:: User guidance
+echo This script will help you create a folder structure for your video project.
+echo enter a project name without special characters (e.g., ! @ # $ % ^ & * ( )).
+echo Type "cancel", "exit", or "stop" to cancel at any time.
+echo.
 
 :promptName
 :: Prompt for project folder name
