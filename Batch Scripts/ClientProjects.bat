@@ -12,6 +12,20 @@ echo 5. Editor Assets
 
 set /p client_choice="Choose 1 - 5: "
 
+:: Check if the user typed any cancellation commands
+if /i "%client_choice%"=="cancel" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%client_choice%"=="exit" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%client_choice%"=="stop" (
+    echo Process cancelled.
+    exit /b
+)
+
 if "%client_choice%"=="1" (
     echo Opening Republic Studs project...
     start "" "F:\videos\editor assets"

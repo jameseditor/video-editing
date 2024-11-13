@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "Batch Scripts"
+		},
+		{
+			"path": "Zip test"
 		}
 	],
 	"settings": {}
