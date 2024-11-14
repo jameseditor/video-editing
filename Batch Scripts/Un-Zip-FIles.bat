@@ -24,14 +24,14 @@ if /i "%delete_zip%" neq "Y" if /i "%delete_zip%" neq "N" (
 for %%X in (*.zip) do (
     echo Extracting "%%X"...
     "C:\Program Files\7-Zip\7z.exe" x "%%X" -o"%%~nX" -y
-    if %errorlevel% equ 0 (
+    if not errorlevel 1 (
         echo Successfully extracted "%%X" to folder "%%~nX".
 
         :: Move all subfolders from the extracted folder to the parent directory
         for /d %%F in ("%%~nX\*") do (
             echo Moving "%%F" to the parent directory...
             move "%%F" .
-            if %errorlevel% equ 0 (
+            if not errorlevel 1 (
                 echo Successfully moved "%%F" to the parent directory.
             ) else (
                 echo Failed to move "%%F".
