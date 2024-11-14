@@ -11,6 +11,25 @@ if errorlevel 1 (
     exit /b
 )
 
+:: Check if the user typed any cancellation commands
+if /i "%filename%"=="cancel" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%filename%"=="exit" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%filename%"=="stop" (
+    echo Process cancelled.
+    exit /b
+)
+
+if /i "%filename%"=="end" (
+    echo Process cancelled.
+    exit /b
+)
+
 :: Check if the user entered an empty name
 if "%filename%"=="" (
     echo You must enter a valid file name.
