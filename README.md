@@ -1,6 +1,6 @@
 # James Slone | Video Editor & Script Developer
 
-Welcome to my GitHub profile! I'm James, a passionate **video editor** and **interactive media designer**. Along with my work in video editing, I also create scripts and **macros** to improve my workflow and automate everyday tasks, particularly for video editing projects.
+I'm James, a passionate **video editor** and **interactive media designer**. Along with my work in video editing, I also create scripts and **macros** to improve my workflow and automate everyday tasks, particularly for video editing projects.
 
 ## About Me
 
