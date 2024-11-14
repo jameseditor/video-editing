@@ -29,7 +29,7 @@ I create **scripts** and **macros** that help automate tasks and improve efficie
 ## Get in Touch
 
 - 📧 Email: [jamestslone@gmail.com](jamestslone@gmail.com)
-- 💼 LinkedIn: [James Slone](https://www.linkedin.com/in/james-slone-4034702b4/)
+- 💼 LinkedIn: [linkedin.com/james-slone](https://www.linkedin.com/in/james-slone-4034702b4/)
 
 Feel free to explore my repositories and contact me if you'd like to collaborate or learn more about my work!
 
