@@ -1,6 +1,6 @@
 # James Slone | Video Editor & Script Developer
 
-I'm James, a passionate **video editor** and **interactive media designer**. Along with my work in video editing, I also create scripts and **macros** to improve my workflow and automate everyday tasks, particularly for video editing projects.
+Hello! I'm James, a passionate **video editor** and **interactive media designer**. Along with my work in video editing, I also create scripts and **macros** to improve my workflow and automate everyday tasks, particularly for video editing projects.
 
 ## About Me
 
