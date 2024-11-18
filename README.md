@@ -23,7 +23,6 @@ I create **scripts** and **macros** that help automate tasks and improve efficie
 - **Video Editing**: Premiere Pro, After Effects, DaVinci Resolve
 - **Script Development**: Batch Scripting, Python, JavaScript
 - **Macro Development**: Excalibur, Premiere Pro Macros
-- **3D Modeling & Animation**: Blender, Cinema 4D
 - **Graphic Design**: Photoshop, Illustrator
 
 ## Get in Touch
