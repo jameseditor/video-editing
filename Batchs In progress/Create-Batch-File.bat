@@ -24,7 +24,6 @@ if /i "%filename%"=="stop" (
     echo Process cancelled.
     exit /b
 )
-
 if /i "%filename%"=="end" (
     echo Process cancelled.
     exit /b
@@ -45,3 +44,7 @@ echo. > "%new_file%"
 :: Notify the user of the file creation
 echo New batch file created: %new_file%
 pause
+
+:: Open the new batch file in Visual Studio Code
+"C:\Users\James Slone\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%new_file%"
+exit /b
