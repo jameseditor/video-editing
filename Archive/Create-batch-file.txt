@@ -1,5 +1,5 @@
 @echo off
-setlocal enabledelayedexpansion
+setlocal
 
 :promptName
 :: Prompt the user for the new batch file name
@@ -29,26 +29,22 @@ if /i "%filename%"=="end" (
     exit /b
 )
 
-:: Replace spaces in the filename with hyphens
-set "filename=!filename: =-!"
-
-:: Create the batch file name with .bat extension
-set "new_file=!filename!.bat"
-
-:: Check if the project file already exists
-if exist "%new_file%" (
-    echo The file "%new_file%" already exists.
+:: Check if the project folder already exists
+if exist "%filename%" (
+    echo The folder or file "%filename%" already exists.
     goto promptName
 )
+
+:: Add .bat extension to the filename
+set "new_file=%filename%.bat"
 
 :: Create an empty batch file
 echo. > "%new_file%"
 
 :: Notify the user of the file creation
 echo New batch file created: %new_file%
+pause
 
 :: Open the new batch file in Visual Studio Code
 "C:\Users\James Slone\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%new_file%"
-
-pause
 exit /b
