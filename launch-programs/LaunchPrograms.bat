@@ -3,6 +3,7 @@ setlocal
 
 :program_choice_loop
 echo Which program do you want to launch?
+echo.
 echo 1. Firefox
 echo 2. Premiere Pro
 echo 3. Editor Assets
@@ -12,7 +13,7 @@ echo 6. 4K Video Downloader
 echo 7. OBS
 echo 8. Shutter Encoder
 echo 9. TourBox
-
+echo.
 set /p program_choice="Choose 1 - 9 (or type 'cancel', 'exit', or 'stop' to quit): "
 
 :: Check if the user typed any cancellation commands
@@ -29,6 +30,16 @@ if /i "%program_choice%"=="stop" (
     exit /b
 )
 
+if /i "%program_choice%"=="end" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%program_choice%"=="/c" (
+    echo Process cancelled.
+    exit /b
+)
+
+:: options of programs to open
 if "%program_choice%"=="1" (
     echo Opening Mozilla Firefox...
     start "" "C:\Program Files\Mozilla Firefox\firefox.exe"

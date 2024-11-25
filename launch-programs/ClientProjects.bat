@@ -4,12 +4,13 @@ setlocal
 :client_project_loop
 cls
 echo Which client project are you working on?
+echo.
 echo 1. Republic Studs
 echo 2. Generic Stud
 echo 3. TommyCBricks
 echo 4. Personal Films
 echo 5. Editor Assets
-
+echo.
 set /p client_choice="Choose 1 - 5: "
 
 :: Check if the user typed any cancellation commands

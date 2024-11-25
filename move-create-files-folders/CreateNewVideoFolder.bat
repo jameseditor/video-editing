@@ -1,9 +1,7 @@
 @echo off
 
 :: User guidance
-echo This script will help you create a folder structure for your video project.
-echo enter a project name without special characters (e.g., ! @ # $ % ^ & * ( )).
-echo Type "cancel", "exit", or "stop" to cancel at any time.
+echo This script will create a folder structure for your video project.
 echo.
 
 :promptName
@@ -20,6 +18,14 @@ if /i "%projectName%"=="exit" (
     exit /b
 )
 if /i "%projectName%"=="stop" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%projectName%"=="end" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%projectName%"=="/c" (
     echo Process cancelled.
     exit /b
 )
