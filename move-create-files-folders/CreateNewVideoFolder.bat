@@ -8,27 +8,12 @@ echo.
 :: Prompt for project folder name
 set /p projectName=Enter the project folder name (type "cancel", "exit", or "stop" to exit): 
 
-:: Check if the user typed any cancellation commands
-if /i "%projectName%"=="cancel" (
-    echo Process cancelled.
-    exit /b
-)
-if /i "%projectName%"=="exit" (
-    echo Process cancelled.
-    exit /b
-)
-if /i "%projectName%"=="stop" (
-    echo Process cancelled.
-    exit /b
-)
-if /i "%projectName%"=="end" (
-    echo Process cancelled.
-    exit /b
-)
-if /i "%projectName%"=="/c" (
-    echo Process cancelled.
-    exit /b
-)
+:: Check if the user entered a cancellation command
+if /i "%projectName%"=="cancel" goto :cancel
+if /i "%projectName%"=="exit" goto :cancel
+if /i "%projectName%"=="stop" goto :cancel
+if /i "%projectName%"=="/c" goto :cancel
+if /i "%projectName%"=="end" goto :cancel
 
 :: Check for special characters using findstr and regular expressions
 echo %projectName% | findstr /R /C:"[!@#$%^&*()]" >nul
@@ -71,12 +56,15 @@ md "%projectName%\Footage\A-roll\Audio"
 md "%projectName%\Footage\B-roll"
 md "%projectName%\Footage\Renders"
 
+:: Success message with color
 echo Folder structure created inside "%projectName%" successfully!
+color 0A
 
-:: Countdown before closing
-for /l %%i in (3,-1,1) do (
-    echo Closing in %%i seconds...
-    timeout /t 1 /nobreak >nul
-)
+goto :eof
 
-exit
+:cancel
+:: Display cancellation message with color
+echo Process cancelled. No action performed.
+color 0C
+pause
+exit /b

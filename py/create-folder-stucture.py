@@ -3,25 +3,32 @@ import re
 import time
 
 def create_folder_structure(base_folder):
-    # Create the main folders
+    """
+    Create a folder structure for a video project.
+    :param base_folder: The base folder name.
+    """
+    # Main folders
     os.makedirs(os.path.join(base_folder, "Assets"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Footage"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Timelines"), exist_ok=True)
 
-    # Create subfolders in Assets
+    # Subfolders in Assets
     os.makedirs(os.path.join(base_folder, "Assets", "1 - Clips"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Assets", "2 - Images"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Assets", "3 - Music Extra"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Assets", "4 - SFX Extra"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Assets", "5 - Other"), exist_ok=True)
 
-    # Create subfolders in Footage
+    # Subfolders in Footage
     os.makedirs(os.path.join(base_folder, "Footage", "A-roll"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Footage", "A-roll", "Audio"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Footage", "B-roll"), exist_ok=True)
     os.makedirs(os.path.join(base_folder, "Footage", "Renders"), exist_ok=True)
 
 def main():
+    """
+    Main function to prompt the user for a project name and create the folder structure.
+    """
     print("This script will create a folder structure for your video project.\n")
     
     while True:
@@ -34,7 +41,7 @@ def main():
         
         # Check for invalid characters
         if re.search(r"[!@#$%^&*()]", project_name):
-            print("Project name contains special characters. Please use only letters and numbers.")
+            print("Project name contains special characters. Please use only letters, numbers, and spaces.")
             continue
         
         # Check if the project folder already exists

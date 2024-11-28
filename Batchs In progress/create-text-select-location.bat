@@ -4,28 +4,14 @@ setlocal enabledelayedexpansion
 :: Ask the user to provide a filename for tracking (optional, can be ignored for functionality)
 set /p "filename=Enter a filename or command: "
 
-:: Check for cancellation commands directly in this script
-if /i "%filename%"=="cancel" (
-    echo Process cancelled. No action will be performed.
-    exit /b
-)
-if /i "%filename%"=="exit" (
-    echo Process cancelled. No action will be performed.
-    exit /b
-)
-if /i "%filename%"=="stop" (
-    echo Process cancelled. No action will be performed.
-    exit /b
-)
-if /i "%filename%"=="/c" (
-    echo Process cancelled. No action will be performed.
-    exit /b
-)
-if /i "%filename%"=="end" (
-    echo Process cancelled. No action will be performed.
-    exit /b
-)
+:: Check if the user entered a cancellation command
+if /i "%filename%"=="cancel" goto :cancel
+if /i "%filename%"=="exit" goto :cancel
+if /i "%filename%"=="stop" goto :cancel
+if /i "%filename%"=="/c" goto :cancel
+if /i "%filename%"=="end" goto :cancel
 
+:: Proceed with the rest of the script if no cancellation command entered
 :: Get the current directory
 set "currentDir=%cd%"
 
@@ -38,3 +24,10 @@ for /D %%F in (*) do (
 
 echo All files have been moved to: %currentDir%
 pause
+goto :eof
+
+:cancel
+:: Display cancellation message
+echo Process cancelled. No action performed.
+pause
+exit /b
