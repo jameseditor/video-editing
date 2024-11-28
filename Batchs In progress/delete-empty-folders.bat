@@ -8,18 +8,26 @@ echo Delete empty folders in: %currentDir%
 echo.
 :: Prompt to press Enter to start
 echo Press Enter to start or type 'cancel', 'exit', or 'stop' to cancel.
-set /p projectName=""
+set /p folderCleanupResponse=""
 
 :: Check if the user typed any cancellation commands
-if /i "%projectName%"=="cancel" (
+if /i "%folderCleanupResponse%"=="cancel" (
     echo Process cancelled.
     exit /b
 )
-if /i "%projectName%"=="exit" (
+if /i "%folderCleanupResponse%"=="exit" (
     echo Process cancelled.
     exit /b
 )
-if /i "%projectName%"=="stop" (
+if /i "%folderCleanupResponse%"=="stop" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%folderCleanupResponse%"=="end" (
+    echo Process cancelled.
+    exit /b
+)
+if /i "%folderCleanupResponse%"=="/c" (
     echo Process cancelled.
     exit /b
 )

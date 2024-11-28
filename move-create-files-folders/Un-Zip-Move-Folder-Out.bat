@@ -62,6 +62,7 @@ for %%X in (*.zip) do (
     )
 )
 
+color 0A
 echo All zip files have been processed.
 pause
 endlocal
