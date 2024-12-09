@@ -34,6 +34,9 @@ if "%projectName%"=="" (
     goto promptName
 )
 
+:: Replace spaces in the folder name with hyphens
+set "projectName=%projectName: =-%"
+
 :: Create the main project folder
 md "%projectName%"
 echo Created folder: %projectName%
