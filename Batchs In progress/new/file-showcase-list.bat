@@ -1,40 +1,44 @@
 @echo off
-
-:: Function to check for cancellation commands
-call :checkCancel
-
-:: Example of other script functionality
+color 07
+:main
+cls
+echo File Listing Script
+echo ====================
+echo.
 
 set /p folderpath=Enter the file/folder path (type "cancel", "exit", or "stop" to exit): 
 
+:: Check for cancel commands
+if /i "%folderpath%"=="cancel" goto :cancel
+if /i "%folderpath%"=="exit" goto :cancel
+if /i "%folderpath%"=="stop" goto :cancel
+if /i "%folderpath%"=="end" goto :cancel
+if /i "%folderpath%"=="/c" goto :cancel
 
-cd folderpath
+:: Debug path check
+echo Debug: Folder path is "%folderpath%"
 
+:: Check if the folder exists
+if not exist "%folderpath%" (
+    echo The path "%folderpath%" does not exist. Please try again.
+    pause
+    goto :main
+)
 
+:: Navigate to the folder and list files
+cd /d "%folderpath%"
+echo.
+echo Listing files in: %folderpath%
+echo.
 
+for /f "delims=" %%i in ('dir /b /a-d') do echo %%i
+echo.
 
-
-
-
-
-
-
-
-:: Placeholder for the rest of the script
-goto :eof
-
-:: Cancel check subroutine
-:checkCancel
-set /p userInput=Enter a command:
-if /i "%userInput%"=="cancel" goto :cancel
-if /i "%userInput%"=="exit" goto :cancel
-if /i "%userInput%"=="stop" goto :cancel
-if /i "%userInput%"=="end" goto :cancel
-if /i "%userInput%"=="/c" goto :cancel
-goto :eof
+pause
+goto :main
 
 :cancel
 echo Process cancelled. No action performed.
-colour 0c
+color 0c
 pause
 exit /b

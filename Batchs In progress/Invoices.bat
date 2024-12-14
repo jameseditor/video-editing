@@ -3,7 +3,8 @@ echo Choose a client:
 echo 1. Republic Studs
 echo 2. Generic Stud
 echo 3. TommyCBricks
-set /p choice="Enter your choice (1-3): "
+echo 4. Description
+set /p choice="Enter your choice (1-4): "
 
 if "%choice%"=="1" (
     echo kookoo4kermit@gmail.com | clip
@@ -14,6 +15,11 @@ if "%choice%"=="1" (
 ) else if "%choice%"=="3" (
     echo tommycbricksbusiness@gmail.com | clip
     echo TommyCBricks email copied to clipboard.
-) else (
+)
+else if "%choice%"=="4" (
+    echo Video editing services. | clip
+    echo Description email copied to clipboard.
+)
+ else (
     echo Invalid choice. Please select a valid option 1-3.
 )
