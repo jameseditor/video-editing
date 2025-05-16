@@ -97,6 +97,9 @@ echo Google Docs shortcut created: %shortcutFile%
 :: Create shortcut
 call :createShortcut "%projectName%"
 
+:: create readme.md
+call :createReadme "%projectName%"
+
 echo Folder structure created inside "%projectName%" successfully!
 color 0A
 exit /b
@@ -145,6 +148,20 @@ for %%F in (%~1) do (
     md "%parentFolder%\%%F" && echo: %parentFolder%\%%F
 )
 exit /b
+
+
+:: Copy readme if it exists
+
+:createReadme
+set "readme=D:\Personal\video-editing-scripts\video-folder-assets\README.md"
+set "destinationFolderReadme=%projectName%"
+
+if not exist "%destinationFolderReadme%" md "%destinationFolderReadme%"
+if exist "%readme%" (
+    copy "%readme%" "%destinationFolderReadme%" && echo Readme copyed project.
+) else (
+    echo Readme not found: %readme%
+)
 
 :createShortcut
 set "targetFolder=%cd%\%~1"
