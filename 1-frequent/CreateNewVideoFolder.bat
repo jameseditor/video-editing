@@ -6,7 +6,8 @@ color 0F
 
 :: User guidance
 echo ==================================================
-echo This script will create a folder structure for your video project.
+echo This script creates a folder structure for your video project.
+echo Then saves a shortcut in active project folder.
 echo ==================================================
 echo.
 echo Commands:
@@ -31,13 +32,47 @@ set "projectName=%projectName: =-%"
 
 :: Create project folder and subdirectories
 md "%projectName%" && echo Created: %projectName%
-call :createSubfolders "%projectName%" "Assets Footage Timelines"
-call :createSubfolders "%projectName%\Assets" "1-Clips 2-Images 3-Music-Extra 4-SFX-Extra 5-Other"
-call :createSubfolders "%projectName%\Footage" "A-roll B-roll Renders"
+call :createSubfolders "%projectName%" "01-Projects 02-Footage 03-Assets 04-Exports 05-Other"
+call :createSubfolders "%projectName%\03-Assets" "01-Clips 02-Images 03-Music 04-SFX 05-GFX"
+call :createSubfolders "%projectName%\02-Footage" "A-roll"
+call :createSubfolders "%projectName%\04-Exports" "99-Archive"
+call :createSubfolders "%projectName%\01-Projects" "Backups"
+
+:: Sets Main folder icons
+call :setFolderIcon "%projectName%\01-Projects" "D:\Personal\Assets\Folder-Icons\Colours\gray.ico"
+call :setFolderIcon "%projectName%\02-Footage"    "D:\Personal\Assets\Folder-Icons\Colours\orange.ico"
+call :setFolderIcon "%projectName%\03-Assets"    "D:\Personal\Assets\Folder-Icons\Colours\lemon.ico"
+call :setFolderIcon "%projectName%\04-Exports"    "D:\Personal\Assets\Folder-Icons\Colours\blue.ico"
+call :setFolderIcon "%projectName%\05-Other"    "D:\Personal\Assets\Folder-Icons\Colours\gray.ico"
+
+:: Sets child folder icons
+call :setFolderIcon "%projectName%\03-Assets\01-Clips"    "D:\Personal\Assets\Folder-Icons\Colours\orange.ico"
+call :setFolderIcon "%projectName%\03-Assets\02-Images"    "D:\Personal\Assets\Folder-Icons\Colours\blue.ico"
+call :setFolderIcon "%projectName%\03-Assets\03-Music"    "D:\Personal\Assets\Folder-Icons\Colours\violet.ico"
+call :setFolderIcon "%projectName%\03-Assets\04-SFX"    "D:\Personal\Assets\Folder-Icons\Colours\green.ico"
+call :setFolderIcon "%projectName%\03-Assets\05-GFX"    "D:\Personal\Assets\Folder-Icons\Colours\lemon.ico"
+
+:setFolderIcon
+set "targetFolder=%~1"
+set "iconPath=%~2"
+
+(
+    echo [.ShellClassInfo]
+    echo IconResource=%iconPath%,0
+    echo IconFile=%iconPath%
+    echo IconIndex=0
+) > "%targetFolder%\desktop.ini"
+
+:: Set desktop.ini as system and hidden, set folder attribute to read-only so icon shows
+attrib +s +h "%targetFolder%\desktop.ini"
+attrib +r "%targetFolder%"
+
+echo Icon set for %targetFolder%
+
 
 :: Copy script if it exists
 set "sourceScript=D:\Personal\video-editing-scripts\1-frequent\un-zip-extract-here.bat"
-set "destinationFolder=%projectName%\Footage\B-roll"
+set "destinationFolder=%projectName%\02-Footage"
 
 if not exist "%destinationFolder%" md "%destinationFolder%"
 if exist "%sourceScript%" (
@@ -45,6 +80,19 @@ if exist "%sourceScript%" (
 ) else (
     echo Script not found: %sourceScript%
 )
+:: Create Google Docs setup guide shortcut inside project folder
+set "docLink=https://docs.google.com/document/d/1eNSp_-wK8olFpx0R9_ocKgWxQdRfmm5I6vEsxHtKdkU/edit?tab=t.wsuxjw3p5jdm"
+set "shortcutFile=%projectName%\Setup-Guide.url"
+
+(
+    echo [InternetShortcut]
+    echo URL=%docLink%
+    echo IconFile=https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico
+    echo IconIndex=0
+) > "%shortcutFile%"
+
+echo Google Docs shortcut created: %shortcutFile%
+
 
 :: Create shortcut
 call :createShortcut "%projectName%"
@@ -90,8 +138,11 @@ exit /b 0
 :createSubfolders
 set "parentFolder=%~1"
 shift
+echo.
+echo Created:
+echo.
 for %%F in (%~1) do (
-    md "%parentFolder%\%%F" && echo Created: %parentFolder%\%%F
+    md "%parentFolder%\%%F" && echo: %parentFolder%\%%F
 )
 exit /b
 
@@ -100,12 +151,12 @@ set "targetFolder=%cd%\%~1"
 set "shortcutPath=D:\Videos\1-Active-project\%~1.lnk"
 
 :: Ensure unique shortcut name
-set "count=1"
 :checkShortcut
+set "count=1"
 if exist "%shortcutPath%" (
     set "shortcutPath=D:\Videos\1-Active-project\%~1-%count%.lnk"
     set /a count+=1
-    goto checkShortcut
+    exit /b
 )
 
 :: Create shortcut using PowerShell
@@ -116,5 +167,4 @@ if exist "%shortcutPath%" (
 ) else (
     echo Failed to create the shortcut.
 )
-
 exit /b
