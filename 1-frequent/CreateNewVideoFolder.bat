@@ -36,7 +36,7 @@ call :createSubfolders "%projectName%" "01-Projects 02-Footage 03-Assets 04-Expo
 call :createSubfolders "%projectName%\03-Assets" "01-Clips 02-Images 03-Music 04-SFX 05-GFX"
 call :createSubfolders "%projectName%\02-Footage" "A-roll"
 call :createSubfolders "%projectName%\04-Exports" "99-Archive"
-call :createSubfolders "%projectName%\01-Projects" "Backups"
+call :createSubfolders "%projectName%\01-Projects" "Backups\v1 Backups\v2 Backups\v3 Backups\v4 Backups\v5"
 
 :: Sets Main folder icons
 call :setFolderIcon "%projectName%\01-Projects" "D:\Personal\Assets\Folder-Icons\Colours\gray.ico"
@@ -99,6 +99,7 @@ call :createShortcut "%projectName%"
 
 :: create readme.md
 call :createReadme "%projectName%"
+call :createTxt "%projectName%"
 
 echo Folder structure created inside "%projectName%" successfully!
 color 0A
@@ -151,7 +152,6 @@ exit /b
 
 
 :: Copy readme if it exists
-
 :createReadme
 set "readme=D:\Personal\video-editing-scripts\video-folder-assets\README.md"
 set "destinationFolderReadme=%projectName%"
@@ -162,6 +162,9 @@ if exist "%readme%" (
 ) else (
     echo Readme not found: %readme%
 )
+
+:createTxt
+echo.>""%projectName%\05-Other\Notes.txt"
 
 :createShortcut
 set "targetFolder=%cd%\%~1"
