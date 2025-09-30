@@ -1,6 +1,6 @@
 # Video Editing Workflow Scripts 
 
-I've been editing videos since 2020 and I found that there's a lot of repetitive things I don't like doing, so I learned how to get the computer to do it for me. 
+These scripts were designed to solve probblems I would face as a video editors face day to day.
 
 ⚠️ I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files) ⚠️
 
