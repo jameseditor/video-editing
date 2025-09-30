@@ -1,5 +1,7 @@
 # Video Editing Workflow Scripts 
 
+I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files)
+
 ##  1-frequent - Batch File Explorer Scripts
 
 ### CreateNewVideoFolder.bat
