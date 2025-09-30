@@ -42,7 +42,7 @@ F4:: Send "^+t"          ;control shift t, reopens tab
 
 #HotIf WinActive("ahk_exe firefox.exe")
 
-Numpad9:: { ; Jump to unread emails
+^F9:: { ; Jump to unread emails
     Send "/"             ; Gmail’s search box shortcut
     Sleep 75
     Send "is:unread{Enter}"
