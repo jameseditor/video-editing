@@ -1,8 +1,8 @@
 # Video Editing Workflow Scripts 
 
-These scripts were designed to solve probblems I would face as a video editors face day to day.
+A collection of scripts that were designed to save time as a video editor, they were specifically designed for my workflow.
 
-⚠️ I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files) ⚠️
+⚠️ I do not recommend anyone to use my scripts without testing on your system first or knowing how to use a batch file, I'm not a professional (I'm not responsible for any lost files) ⚠️
 
 ##  1-frequent - Batch File Explorer Scripts
 
