@@ -147,7 +147,7 @@ This batch script automates folder creation with a numbering system.
 A collection of templates from the project and folder structures.
 
 ## video-folder-assets 
-this this is connected to `CreateNewVideoFolder.bat` [⮺](1-frequent/CreateNewVideoFolder.bat)`
+This is connected to `CreateNewVideoFolder.bat` [⮺](1-frequent/CreateNewVideoFolder.bat)`
 
 
 
