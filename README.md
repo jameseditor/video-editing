@@ -1,5 +1,7 @@
 # Video Editing Workflow Scripts 
 
+I've been editing videos since 2020 and I found that there's a lot of repetitive things I don't like doing, so I learned how to get the computer to do it for me. 
+
 I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files)
 
 ##  1-frequent - Batch File Explorer Scripts
@@ -44,9 +46,9 @@ This batch script automates folder creation with a numbering system.
 
 
 
-## 1-ffmpeg - Video creation files
+## 2-ffmpeg - Video Creation Batchs
 
-### ConvertMKVtoMP4.bat [⮺](1-frequent/ConvertMKVtoMP4.bat)
+### ConvertMKVtoMP4.bat [⮺](2-ffmpeg/ConvertMKVtoMP4.bat)
 
 * **Purpose:** This script converts all `.mkv` files in the current directory to `.mp4` format without re-encoding (preserving original video and audio quality). If no `.mkv` files are found, it notifies the user.
 * **How To Use:**
@@ -59,7 +61,7 @@ This batch script automates folder creation with a numbering system.
 
 
 
-### Extract-Video.bat [⮺](1-frequent/Extract-Video.bat)
+### Extract-Video.bat [⮺](2-ffmpeg/Extract-Video.bat)
 
 * **Purpose:** This script extracts the audio track from all `.mp4` files in the current directory and saves them as `.mp3` files with `-audio-only` added to the filename. If no `.mp4` files are found, it notifies the user.
 * **How To Use:**
@@ -70,7 +72,7 @@ This batch script automates folder creation with a numbering system.
   4. If no `.mp4` files are found, a message will appear.
 
 
-### ExtractAudio.bat [⮺](1-frequent/ExtractAudio.bat)
+### ExtractAudio.bat [⮺](2-ffmpeg/ExtractAudio.bat)
 
 - **Purpose:** This script extracts the video stream from all `.mp4` files in the current directory, removing the audio track. The resulting files are saved with `video_only_` prefixed to the original filename. If no `.mp4` files are found, it notifies the user.  
 - **How To Use:**  
@@ -81,7 +83,7 @@ This batch script automates folder creation with a numbering system.
 
 
 
-### VFR-Detector.bat [⮺](1-frequent/VFR-Detector.bat)
+### VFR-Detector.bat [⮺](2-ffmpeg/VFR-Detector.bat)
 
 - **Purpose:** This script scans all video files (`.mp4`, `.mov`, `.mkv`, `.avi`) in the current folder and its subfolders, using MediaInfo to check the FrameRate Mode of each file. It alerts the user if a file uses Variable Frame Rate (VFR).  
 - **How To Use:**  
@@ -90,3 +92,5 @@ This batch script automates folder creation with a numbering system.
     3. Run the `.bat` file. Each video file will be checked for its FrameRate Mode.  
     4. If a file is detected as VFR, a warning message will be displayed.  
     5. Follow the on-screen instructions to close MediaInfo tabs using `ALT + F4` as the script progresses.  
+
+## 3-ffmpeg - Video Creation Batchs
