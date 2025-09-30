@@ -4,7 +4,7 @@ I do not recommend anyone to use my scripts without testing on your system first
 
 ##  1-frequent - Batch File Explorer Scripts
 
-### CreateNewVideoFolder.bat
+### CreateNewVideoFolder.bat  [⮺](video-editing-scripts\1-frequent\CreateNewVideoFolder.bat)
 
 This batch script streamlines the creation of a standardized folder structure for video projects and automatically generates a shortcut to the main project folder. It prompts the user for a project name, validates it to ensure no special characters or duplicates, and creates folders for organizing assets, footage, timelines, and subcategories like A-roll and B-roll. The script then generates a shortcut to the newly created project folder and places it in `D:\Videos\1-Active-project` for quick access. Additionally, it includes help and cancel options for ease of use and user guidance.
 
