@@ -1,0 +1,245 @@
+<?xml version='1.0'?>
+<prop.map version='4'>
+<prop.list>
+<prop.pair>
+<key>BuiltInKeys</key>
+<array>
+<array.type><string/></array.type>
+<string>$$$/Premiere/FrontEnd/Starter=Starter</string>
+<string>$$$/Premiere/FrontEnd/Essentials=Essentials</string>
+<string>$$$/Premiere/FrontEnd/Vertical=Vertical</string>
+<string>$$$/Premiere/FrontEnd/Learning=Learning</string>
+<string>$$$/Premiere/FrontEnd/AllPanels=All Panels</string>
+<string>$$$/Premiere/FrontEnd/Assembly=Assembly</string>
+<string>$$$/Premiere/FrontEnd/Editing=Editing</string>
+<string>$$$/Premiere/FrontEnd/Color=Color</string>
+<string>$$$/Premiere/FrontEnd/Effects=Effects</string>
+<string>$$$/Premiere/FrontEnd/Audio=Audio</string>
+<string>$$$/Premiere/FrontEnd/Metalogging=Metalogging</string>
+<string>$$$/Premiere/FrontEnd/CaptionsGraphicsSpace=Captions and Graphics#{comment}DVAGE-6442</string>
+<string>$$$/Premiere/FrontEnd/Review=Review</string>
+<string>$$$/Premiere/FrontEnd/Libraries=Libraries</string>
+<string>$$$/Premiere/FrontEnd/Production=Production</string>
+<string>$$$/Premiere/FrontEnd/TextBasedEditing=Text-Based Editing</string>
+<string>$$$/Premiere/FrontEnd/Prelude=Prelude</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>BuiltIns</key>
+<array>
+<array.type><ustring/></array.type>
+</array>
+</prop.pair>
+<prop.pair>
+<key>FilePaths</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_14.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_18.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_12.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_16.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_19.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_24.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_25.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_15.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_20.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_13.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\ArchivedLayouts\UserWorkspace_17.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_14.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_18.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_26.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_12.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_16.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_21.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_19.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_24.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_25.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_15.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_10.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_6.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_11.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_1.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_9.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_2.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_4.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_20.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_8.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_13.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_22.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_5.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_17.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_3.xml</ustring>
+<ustring>C:\Users\James Slone\Documents\Adobe\Premiere Pro\25.0\Profile-James Slone\Layouts\UserWorkspace_7.xml</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MainWndPos</key>
+<prop.list>
+<prop.pair>
+<key>MaxPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MinPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>NormalPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>2560</int>
+<int type='signed' size='32'>1440</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>ShowCmd</key>
+<int type='signed' size='32'>1</int>
+</prop.pair>
+</prop.list>
+</prop.pair>
+<prop.pair>
+<key>ModifiedTimes</key>
+<array>
+<array.type><string/></array.type>
+<string>20250123T143747.466810</string>
+<string>20250116T161021.670558</string>
+<string>20250423T142512.351686</string>
+<string>20250116T160326.525557</string>
+<string>20250116T160358.213088</string>
+<string>20250407T120902.450538</string>
+<string>20250424T174404.726817</string>
+<string>20250116T160942.526004</string>
+<string>20250924T144500.082532</string>
+<string>20250808T125132.451470</string>
+<string>20250924T143913.410850</string>
+<string>20250924T144341.119755</string>
+<string>20250924T144345.685203</string>
+<string>20250924T144350.814471</string>
+<string>20250924T144353.934399</string>
+<string>20250924T144359.620469</string>
+<string>20250924T144407.784428</string>
+<string>20250924T144412.795475</string>
+<string>20250926T120211.888498</string>
+<string>20250924T144426.855284</string>
+<string>20250924T144156.059072</string>
+<string>20240303T143058</string>
+<string>20240305T032352</string>
+<string>20250924T143437.432971</string>
+<string>20250220T011650</string>
+<string>20241006T153340</string>
+<string>20231227T185836</string>
+<string>20250924T143018.585881</string>
+<string>20250924T163036.580014</string>
+<string>20231119T191422</string>
+<string>20240526T020832</string>
+<string>20250929T160403.428500</string>
+<string>20250827T124636.643079</string>
+<string>20230620T152316</string>
+<string>20250924T144327.193592</string>
+<string>20250217T163156</string>
+<string>20250320T185738</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>UserNames</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>1 Colour Grading</ustring>
+<ustring>1 Importing Files</ustring>
+<ustring>1 Showcase</ustring>
+<ustring>1 Text</ustring>
+<ustring>1 Verson saver</ustring>
+<ustring>1 Vertical Video</ustring>
+<ustring>1-Pancake-Timeline</ustring>
+<ustring>ALL Panels</ustring>
+<ustring>Effects Controls</ustring>
+<ustring>MAIN - 2 Screens</ustring>
+<ustring>Single-Screen</ustring>
+<ustring>1 Colour Grading</ustring>
+<ustring>1 Importing Files</ustring>
+<ustring>1 Music and SFX</ustring>
+<ustring>1 Showcase</ustring>
+<ustring>1 Text</ustring>
+<ustring>1 Timelines on both screens</ustring>
+<ustring>1 Verson saver</ustring>
+<ustring>1 Vertical Video</ustring>
+<ustring>1-Pancake-Timeline</ustring>
+<ustring>ALL Panels</ustring>
+<ustring>$$$/Premiere/FrontEnd/AllPanels=All Panels</ustring>
+<ustring>$$$/Premiere/FrontEnd/Assembly=Assembly</ustring>
+<ustring>$$$/Premiere/FrontEnd/Audio=Audio</ustring>
+<ustring>$$$/Premiere/FrontEnd/CaptionsGraphicsSpace=Captions and Graphics#{comment}DVAGE-6442</ustring>
+<ustring>$$$/Premiere/FrontEnd/Color=Color</ustring>
+<ustring>$$$/Premiere/FrontEnd/Editing=Editing</ustring>
+<ustring>$$$/Premiere/FrontEnd/Effects=Effects</ustring>
+<ustring>Effects Controls</ustring>
+<ustring>$$$/Premiere/FrontEnd/Essentials=Essentials</ustring>
+<ustring>$$$/Premiere/FrontEnd/Learning=Learning</ustring>
+<ustring>MAIN - 2 Screens</ustring>
+<ustring>$$$/Premiere/FrontEnd/Production=Production</ustring>
+<ustring>$$$/Premiere/FrontEnd/Review=Review</ustring>
+<ustring>Single-Screen</ustring>
+<ustring>$$$/Premiere/FrontEnd/TextBasedEditing=Text-Based Editing</ustring>
+<ustring>$$$/Premiere/FrontEnd/Vertical=Vertical</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceConfigVersion</key>
+<string>1.1</string>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceTypes</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+</array>
+</prop.pair>
+</prop.list>
+</prop.map>

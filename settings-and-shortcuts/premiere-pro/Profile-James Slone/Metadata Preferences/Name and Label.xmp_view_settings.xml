@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<md.paths version='1.0'>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.Intrinsic.AudioUsage</description>
+<entry_name>Column.Intrinsic.AudioUsage</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>false</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.Intrinsic.Name</description>
+<entry_name>Column.Intrinsic.Name</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.Intrinsic.VideoUsage</description>
+<entry_name>Column.Intrinsic.VideoUsage</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.PropertyText.Label</description>
+<entry_name>Column.PropertyText.Label</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>false</internal>
+<namespace>http://purl.org/dc/elements/1.1/</namespace>
+<description>type</description>
+<entry_name>type</entry_name>
+<parent_id>http://purl.org/dc/elements/1.1/</parent_id>
+</metadata_path>
+</md.paths>

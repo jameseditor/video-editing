@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<md.paths version='1.0'>
+<metadata_path><internal>false</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.Intrinsic.Name</description>
+<entry_name>Column.Intrinsic.Name</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</namespace>
+<description>Column.PropertyText.Label</description>
+<entry_name>Column.PropertyText.Label</entry_name>
+<parent_id>http://ns.adobe.com/premierePrivateProjectMetaData/1.0/</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/xmp/1.0/DynamicMedia/</namespace>
+<description>videoFrameSize/stDim:h</description>
+<entry_name>h</entry_name>
+<parent_id>dimensions</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/xmp/1.0/DynamicMedia/</namespace>
+<description>videoFrameSize/stDim:unit</description>
+<entry_name>unit</entry_name>
+<parent_id>dimensions</parent_id>
+</metadata_path>
+<metadata_path><internal>true</internal>
+<namespace>http://ns.adobe.com/xmp/1.0/DynamicMedia/</namespace>
+<description>videoFrameSize/stDim:w</description>
+<entry_name>w</entry_name>
+<parent_id>dimensions</parent_id>
+</metadata_path>
+</md.paths>

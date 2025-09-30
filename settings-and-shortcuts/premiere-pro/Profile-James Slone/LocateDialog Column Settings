@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<providers Version="2">
+		<provider.1 Version="1">
+			<column.1 Version="1">
+				<field>02</field>
+				<width>170.</width>
+			</column.1>
+			<column.0 Version="1">
+				<field>Name</field>
+				<width>437.130462646484</width>
+			</column.0>
+			<providername>com.adobe.Premiere.WinProviderDirectory</providername>
+			<columncount>2</columncount>
+		</provider.1>
+		<provider.0 Version="1">
+			<column.1 Version="1">
+				<field>Path</field>
+				<width>170.</width>
+			</column.1>
+			<column.0 Version="1">
+				<field>Name</field>
+				<width>170.</width>
+			</column.0>
+			<providername>com.adobe.Premiere.ProviderFavorites</providername>
+			<columncount>2</columncount>
+		</provider.0>
+		<providercount>2</providercount>
+	</providers>
+</PremiereData>

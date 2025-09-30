@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<SequencePreset ObjectRef="1"/>
+	<SequencePreset ObjectID="1" ClassID="5e73dd7e-4f86-4917-80eb-08ddb2f4a5f3" Version="10">
+		<ColorManagementPreset ObjectRef="2"/>
+		<VideoTimeDisplay>106</VideoTimeDisplay>
+		<AudioTimeDisplay>200</AudioTimeDisplay>
+		<VideoFieldType>0</VideoFieldType>
+		<WorkingColorSpace>{"baseColorProfile":{"colorProfileName":"BT.709 RGB Full"},"baseProfileType":1}</WorkingColorSpace>
+		<AutoToneMapEnabled>false</AutoToneMapEnabled>
+		<Names Version="1">
+			<NameItem Version="1" Index="0">
+				<First>en_US</First>
+				<Second>4K-Video-60fps</Second>
+			</NameItem>
+		</Names>
+		<Descriptions Version="1">
+			<DescriptionItem Version="1" Index="0">
+				<First>en_US</First>
+				<Second>RuggedEagle</Second>
+			</DescriptionItem>
+		</Descriptions>
+		<EditingModeGUID.Mac>9678af98-a7b7-4bdb-b477-7ac9c8df4a4e</EditingModeGUID.Mac>
+		<EditingModeGUID.Win>9678af98-a7b7-4bdb-b477-7ac9c8df4a4e</EditingModeGUID.Win>
+		<PreviewPresetFileName.Mac>EncoderPresets\SequencePreview\9678af98-a7b7-4bdb-b477-7ac9c8df4a4e\QuickTime.epr</PreviewPresetFileName.Mac>
+		<PreviewPresetVideoCodec.Mac>1634755443</PreviewPresetVideoCodec.Mac>
+		<PreviewPresetFileName.Win>EncoderPresets\SequencePreview\9678af98-a7b7-4bdb-b477-7ac9c8df4a4e\QuickTime.epr</PreviewPresetFileName.Win>
+		<PreviewPresetVideoCodec.Win>1634755443</PreviewPresetVideoCodec.Win>
+		<VideoFrameRate>4237833600</VideoFrameRate>
+		<VideoFrameSize>0,0,3840,2160</VideoFrameSize>
+		<VideoPixelAspectRatio>1,1</VideoPixelAspectRatio>
+		<VideoUseMaxBitDepth>false</VideoUseMaxBitDepth>
+		<VideoUseMaxRenderQuality>false</VideoUseMaxRenderQuality>
+		<VideoAllowLinearCompositing>false</VideoAllowLinearCompositing>
+		<AudioFrameRate>5292000</AudioFrameRate>
+		<AudioChannelType>1</AudioChannelType>
+		<AdaptiveNumChannels>2</AdaptiveNumChannels>
+		<InitialNumberOfVideoTracks>8</InitialNumberOfVideoTracks>
+		<AudioTracks>[{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"VO","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":2,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":true,"mMatrix":[],"mMute":false,"mName":"Split","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":3,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"SFX","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":4,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"sfx2","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":5,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"sfx3","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":6,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"sfx4","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":7,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":true,"mMatrix":[],"mMute":false,"mName":"Split-2","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":8,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"Music","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":9,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"m2","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":10,"mVolume":1},{"mAssign":1,"mAudioSends":[],"mChannelType":1,"mExpandedHeight":17,"mIsOpen":false,"mIsSubmix":false,"mKeyframeMode":true,"mLocked":false,"mMatrix":[],"mMute":false,"mName":"m3","mPan":0,"mPannerAssignments":[],"mSolo":false,"mSyncLock":true,"mTargeted":true,"mTrackID":11,"mVolume":1}]</AudioTracks>
+		<VideoTracks>[{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"A-roll","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"B-roll","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 3","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 4","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 5","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 6","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 7","mSyncLock":true,"mTargeted":true},{"mExpandedHeight":17,"mLocked":false,"mMute":false,"mName":"Video 8","mSyncLock":true,"mTargeted":true}]</VideoTracks>
+		<ImmersiveVideoVRConfiguration>{"ambisonicsHRIR":"","ambisonicsMonitoringType":0,"capturedHorizontalView":0,"capturedVerticalView":0,"fieldOfHorizontalView":108,"fieldOfVerticalView":108,"projectionType":0,"stereoscopicEye":0,"stereoscopicType":0,"version":3}</ImmersiveVideoVRConfiguration>
+		<PreviewVideoFrameSize>0,0,3840,2160</PreviewVideoFrameSize>
+		<SequenceWorkingColorSpace>{"workingSpaceConfigVersion":1,"workingSpaceID":"BT.709 RGB Full","workingSpaceIsLinearized":0}</SequenceWorkingColorSpace>
+	</SequencePreset>
+	<ColorManagementPreset ObjectID="2" ClassID="a02a917a-807e-46ef-aaa2-7a440773db94" Version="1">
+		<Gain>1.</Gain>
+		<OutputColorSpace>{}</OutputColorSpace>
+		<WorkingColorSpace>{"baseColorProfile":{"colorProfileName":"BT.709 RGB Full"},"baseProfileType":1}</WorkingColorSpace>
+		<Peak>1.</Peak>
+		<Desaturation>1.</Desaturation>
+		<Knee>0.</Knee>
+		<ToneMappingAlgorithm>0</ToneMappingAlgorithm>
+		<GamutCompressionAlgorithm>0</GamutCompressionAlgorithm>
+		<GraphicsWhiteLuminanceSameAsProject>true</GraphicsWhiteLuminanceSameAsProject>
+		<ColorAwareEffectsEnabledSameAsProject>true</ColorAwareEffectsEnabledSameAsProject>
+		<AutoToneMapEnabled>false</AutoToneMapEnabled>
+		<AutoInputGamutCompressionEnabled>false</AutoInputGamutCompressionEnabled>
+		<ColorManagementSystem>0</ColorManagementSystem>
+	</ColorManagementPreset>
+</PremiereData>
