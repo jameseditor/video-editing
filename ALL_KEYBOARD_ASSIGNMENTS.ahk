@@ -17,7 +17,7 @@ F1::
 
 #HotIf WinActive("ahk_exe firefox.exe") ; Only works if Firefox is active
 
-; ^F1:: {
+; ^+F1:: { ; this was to make pinning these tabs faster but it ends up being more work
 ;     ; Open each tab
 ;     Run "https://docs.google.com/document/d/1okrpUhcLESdLfXn77oZ1GivLRKZW64Mxa-de29_8RCg/edit?usp=sharing"
 ;     Run "https://docs.google.com/document/d/1ECUjXG1cPk6Ty3v3OqkZGKlEbD7O-YrqlQMJ3Xs_Txw/edit?usp=sharing"
@@ -32,11 +32,14 @@ F1::
 !F1:: Send "^+{PgUp}"   ; Alt+F1 -> Move tab left
 !F2:: Send "^+{PgDn}"   ; Alt+F2 -> Move tab right
 
+^F1:: Send "!{Left}"    ;Ctrl+F1 -> control alt left, go back one page
+^F2:: Send "!{Right}"   ;Ctrl+F2 -> control alt right, go forward one page
+
 ; --- Switch Tabs ---
 F1:: Send "^+{Tab}"     ; F1 -> Previous tab
 F2:: Send "^{Tab}"      ; F2 -> Next tab
-F3:: Send "^w"          ;control w, which closes a tab
-F4:: Send "^+t"          ;control shift t, reopens tab
+F3:: Send "^w"          ; F3 -> control w, which closes a tab
+F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
 
 ; --- GMAIL ---
 

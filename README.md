@@ -13,17 +13,13 @@ I've been editing videos since 2020 and I found that there's a lot of repetitive
 - **How To Use:**  
     1. Run the `.bat` file.  
     2. Enter a project folder name when prompted.  
-        - Allowed: letters, numbers, spaces, and hyphens  
     3. The script will:  
         - Create the project folder and subfolders (`Projects`, `Footage`, `Assets`, `Exports`, `Other`, etc.).  
-        - Add nested folders for backups, media assets, and archive exports.  
         - Apply custom icons to main and child folders.  
-        - Copy a helper extraction script into the `Footage` folder.  
+        - Copy a helper extraction script [un-zip-extract-here.bat](1-frequent/un-zip-extract-here.bat) into the `Footage` folder.  
         - Create a Google Docs setup guide shortcut inside the project folder.  
-        - Copy a `README.md` template if available.  
-        - Generate a `Notes.txt` file inside the `Other` folder.  
-        - Create a `.lnk` shortcut in the `D:\Videos\1-Active-project` directory pointing to the new project folder.  
-    4. Once complete, the console will confirm folder creation and shortcut setup.  
+        - Copy `README.md` and create a `Notes.txt` files.  
+        - Create a folder shortcut in the `D:\Videos\1-Active-project` (change this for Personal Setup).    
 
 
 (there are some parts of the script that link to folder icons on my pc)
