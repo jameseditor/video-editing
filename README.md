@@ -139,9 +139,9 @@ This batch script automates folder creation with a numbering system.
     3. If the folder already exists, you will be prompted to choose a different name.  
     4. The script will create the folder along with empty `index.html`, `styles.css`, `script.js` files and an `images` folder inside it.  
 
-## 99-Archive - DO NO USE THESE
+## 99-Archive - DO NOT USE THESE
 
-## Batchs In progress - DO NO USE THESE
+## Batchs In progress - DO NOT USE THESE
 
 ## Templates
 A collection of templates from the project and folder structures.
