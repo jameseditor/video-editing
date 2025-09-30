@@ -33,7 +33,7 @@ This script automates the extraction of `.zip` files in the current directory us
 Will show the full list of files in a folder so you can copy them to a txt, I used this when I use ai sometimes.
 
 
-# Create-Numeric-Folders.bat
+### Create-Numeric-Folders.bat
 
 This batch script automates folder creation with a numbering system.  
 
