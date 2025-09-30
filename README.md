@@ -2,7 +2,7 @@
 
 I've been editing videos since 2020 and I found that there's a lot of repetitive things I don't like doing, so I learned how to get the computer to do it for me. 
 
-I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files)
+⚠️ I do not recommend anyone to use my scripts without testing on your system first, I'm not a professional (I'm not responsible for any lost files) ⚠️
 
 ##  1-frequent - Batch File Explorer Scripts
 
