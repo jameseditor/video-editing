@@ -1,4 +1,4 @@
-# Scripts that speed up my video editing workflow
+# Video Editing Workflow Scripts 
 
 ## Batch File Explorer Scripts in `1-frequent`
 
