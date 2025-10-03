@@ -1,5 +1,7 @@
 #Requires AutoHotkey v2.0
 
+; Guide - https://www.autohotkey.com/docs/v2/Tutorial.htm
+
 #SingleInstance Force ;this will replace the script in one action when reruning it
 
 #HotIf WinActive("ahk_exe Adobe Premiere Pro.exe")
@@ -49,4 +51,29 @@ F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
     Send "/"             ; Gmail’s search box shortcut
     Sleep 75
     Send "is:unread{Enter}"
+}
+
+; CAPCUT
+
+#HotIf WinActive("ahk_exe CapCut.exe") ; Only works if cap cut is active
+
+^+Space:: { ; Jump to start and playback
+    Send "{Home}"
+    Send "{Space}"
+}
+
+^right:: { ; cut at next cut point
+    Send "{Down}"
+    Send "r"
+}
+
+^left:: { ; cut at prevous cut point
+    Send "{Up}"
+    Send "r"
+}
+
+F1:: { ; Jump to unread emails
+    Click
+    Sleep 75
+    Send "c"
 }
