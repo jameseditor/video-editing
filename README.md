@@ -59,7 +59,7 @@ A collection of scripts that were designed to save time as a video editor, they 
 
 ### file-showcase-list.bat [⮺](1-frequent/file-showcase-list.bat)
 
-- **Purpose:** This script allows you to quickly list all files in a given folder. It verifies the entered path, handles cancel/exit commands, and displays the files in a clean list format.  
+- **Purpose:** This script allows you to quickly list all files in a given folder.
 
 - **How To Use:**  
   1. Enter the full path of the folder you want to list files from.  
