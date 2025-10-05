@@ -80,7 +80,7 @@ F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
 
 ; CAPCUT
 
-#HotIf WinActive("ahk_exe CapCut.exe") ; Only works if cap cut is active
+#HotIf WinActive("ahk_exe CapCut.exe") ; Only works if capcut is active
 
 ^+Space:: { ; Jump to start and playback
     Send "{Home}"
@@ -97,7 +97,11 @@ F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
     Send "r"
 }
 
+<<<<<<< HEAD
 F1:: { ; ripple delete at curser
+=======
+F1:: { ; Delete clip at mouse pointer
+>>>>>>> 59a6a344bc39bd74c266a3c5aedfd843a59ee9ac
     Click
     Sleep 75
     Send "c"
