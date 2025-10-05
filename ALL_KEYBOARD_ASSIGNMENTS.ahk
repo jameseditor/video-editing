@@ -1,8 +1,33 @@
 #Requires AutoHotkey v2.0
 
+; ==========================
+; 🔑 Modifier Key Symbols
+; ==========================
+; ^  = Ctrl
+; !  = Alt
+; +  = Shift
+; #  = Windows
+; ==========================
+
 ; Guide - https://www.autohotkey.com/docs/v2/Tutorial.htm
+; cool videos - https://youtu.be/l4wm4dObhF4
 
 #SingleInstance Force ;this will replace the script in one action when reruning it
+
+; ^F5:: {
+;     date := FormatTime(A_Now, "MMM d, yyyy")
+;     SendText date
+; }
+
+;******************************************************************************
+;			Dash lines (AHK v2) - I will turn it back on if i need it
+;******************************************************************************
+
+; ::]-10::----------
+; ::]-20::--------------------
+; ::]-30::------------------------------
+; ::]-40::----------------------------------------
+; ::]-50::--------------------------------------------------
 
 #HotIf WinActive("ahk_exe Adobe Premiere Pro.exe")
 ;Ripple delete clip at playhead!! This was the first AHK script I ever wrote, I think!
@@ -72,8 +97,16 @@ F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
     Send "r"
 }
 
-F1:: { ; Jump to unread emails
+F1:: { ; ripple delete at curser
     Click
     Sleep 75
     Send "c"
 }
+
+#HotIf WinActive("ahk_exe discord.exe") ; Discord
+
+F1:: Send "^+{Tab}"     ; F1 -> Previous tab
+F2:: Send "^{Tab}"      ; F2 -> Next tab
+
+F3:: Send "!{up}"          ; F3 -> up arrow
+F4:: Send "!{down}"         ; F4 -> control shift t, reopens tab
