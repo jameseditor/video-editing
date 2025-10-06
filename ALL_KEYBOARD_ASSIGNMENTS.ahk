@@ -97,11 +97,7 @@ F4:: Send "^+t"         ; F4 -> control shift t, reopens tab
     Send "r"
 }
 
-<<<<<<< HEAD
 F1:: { ; ripple delete at curser
-=======
-F1:: { ; Delete clip at mouse pointer
->>>>>>> 59a6a344bc39bd74c266a3c5aedfd843a59ee9ac
     Click
     Sleep 75
     Send "c"
@@ -114,3 +110,8 @@ F2:: Send "^{Tab}"      ; F2 -> Next tab
 
 F3:: Send "!{up}"          ; F3 -> up arrow
 F4:: Send "!{down}"         ; F4 -> control shift t, reopens tab
+
+#HotIf WinActive("ahk_exe Notion.exe") ; Notion
+
+F1:: Send "^+{Tab}"     ; F1 -> Previous tab
+F2:: Send "^{Tab}"      ; F2 -> Next tab
