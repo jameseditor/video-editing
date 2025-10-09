@@ -35,9 +35,9 @@ F1::
 {
     Send "u" ;u  is assigned to [select clip at playhead]
     sleep 1
-    ;Send ^+!d ;ctrl alt shift d  is [ripple delete]. I had disabled CTRL CHIFT D for some raisin. i guess I'll see why later.
-    Send "w" ;ctrl  shift d  is also [ripple delete]. Premier 2024 wasn't working with the old shortcut, for some reason. Note there are two versions of it, and only one of them is explicitly for the timeline panel. That's the one that I think you're supposed to use now, but it's also finicky now, perhaps getting confused if it has another general assignment.
+    Send "w"
     sleep 1
+    Send "{Space}"
 }
 
 ; FIREFOX SHORTCUTS
@@ -115,3 +115,11 @@ F4:: Send "!{down}"         ; F4 -> control shift t, reopens tab
 
 F1:: Send "^+{Tab}"     ; F1 -> Previous tab
 F2:: Send "^{Tab}"      ; F2 -> Next tab
+
+#HotIf WinActive("ahk_exe MediaInfo.exe") ; MediaInfo
+
+F2:: { ; search for vfr
+    Send "{F3}"      ; Find function or "find in page"
+    Sleep 75
+    Send "Frame rate mode :"
+}
