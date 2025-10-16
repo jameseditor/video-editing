@@ -123,3 +123,7 @@ F2:: { ; search for vfr
     Sleep 75
     Send "Frame rate mode :"
 }
+
+#HotIf WinActive("ahk_exe MediaPlayer.exe") ; MediaInfo
+
+F1:: Send "^+p"     ; F1 -> Previous tab
