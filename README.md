@@ -127,7 +127,10 @@ A collection of scripts that were designed to save time as a video editor, they 
 
 ## 3-move-create-files-folders - Batchs Creation 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4c18fc6c9b017b88bb2b1a8b955ac6c8cdf976d
 ## 99-Archive - DO NOT USE THESE
 
 ## Batchs In progress - DO NOT USE THESE
