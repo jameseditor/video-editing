@@ -4,6 +4,8 @@ A collection of scripts that were designed to save time as a video editor, they 
 
 ⚠️ I do not recommend anyone to use my scripts without testing on your system first or knowing how to use a batch file, I'm not a professional (I'm not responsible for any lost files) ⚠️
 
+This repo also includes my premiere pro presets, with track, source patching and much more... for free, you're welcome.
+
 ##  1-frequent - Batch File Explorer Scripts
 
 ### CreateNewVideoFolder.bat [⮺](1-frequent/CreateNewVideoFolder.bat)
